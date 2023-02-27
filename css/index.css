@@ -1,0 +1,29 @@
+span {
+  font-weight: 100;
+  font-size: 0.75rem;
+}
+.point {
+  cursor: pointer;
+}
+.name {
+  display: flex;
+}
+.active {
+  border-radius: 20px;
+  border: 1px solid black;
+}
+.header {
+}
+.test {
+  margin: 100px;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0 1em;
+}
+tr {
+  line-height: 25px;
+}
+tr > td {
+  padding: 10px;
+}

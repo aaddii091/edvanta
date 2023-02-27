@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <!-- Latest compiled
+    <title>PrintDash</title>
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+  </head>
+  <body>
+    <!-- Start your project here-->
+<section class="header d-flex justify-content-between p-3">
+  <div class="input-group h-25 w-25">
+    <button type="button" class="btn btn-primary bg-dark">
+      <i class="fas fa-search"></i>
+    </button>
+    <div class="form-outline">
+      <input type="search" id="form1" class="form-control" />
+      <label class="form-label" for="form1">Search</label>
+    </div>
+  </div>
+  <div class="sort">
+
+  
+  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+             
+    <li class="nav-item dropdown">
+      <a
+        class="nav-link dropdown-toggle"
+        href="#"
+        id="navbarDropdown"
+        role="button"
+        data-mdb-toggle="dropdown"
+        aria-expanded="false"
+      >
+        Sort By
+      </a>
+ 
+      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <li><a class="dropdown-item" href="#">Popularity</a></li>
+        <li>
+          <a class="dropdown-item" href="#">Low - High</a>
+        </li>
+        <li>
+          <a class="dropdown-item" href="#">High - Low</a>
+        </li>
+        
+        <li>
+          <a class="dropdown-item" href="#">Recent</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+  </div>
+</section>
+    <!-- DropDown -->
+    
+    <section class="cards">
+      <table
+        id="dtBasicExample"
+        class="table  table-borderless table-sm no-border"
+        cellspacing="0"
+        width="100%"
+      >
+        <thead>
+          <tr>
+            <th class="th-sm">#ID</th>
+            <th class="th-sm">Client</th>
+            <th class="th-sm">Products</th>
+            <th class="th-sm">Status</th>
+            <th class="th-sm">Date created</th>
+            <th class="th-sm">Price</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody class="pt-3">
+          
+          
+            
+          
+          <tr class="effect test" >
+            <td class="align-middle">#PD000001</td>
+            <td class="align-middle" ><div class="name">
+              <div class="logo" ><i onclick="show()" class="bi bi-person-circle fa-2x pe-3 clickevent" ></i></div>
+              <div class="user-name ">Justin<br><span>Business Name</span></div>
+            </div> </td>
+            <td class="align-middle">Business cards <br><span>X250 </span> <br>
+            Poster <br><span>X250</span></td>
+            <td class="align-middle">
+              <button type="button" class="btn btn-warning btn-sm ">IN PRODUCTION</button></td>
+              <td class="align-middle">Nov 18, 2023</td>
+              <td class="align-middle">$320,800 </td>
+              <td class="align-middle"><i onclick="show()" class="bi bi-grip-vertical fa-2x point mt-0 d-flex justify-content-end pe-1"></i></td>
+          </tr>
+          <tr class="border-status">
+            <td class="bg-warning" style="border-radius: 0px 0px 0px 10px; font-size: .70rem; font-weight: 700;">Dispatch ETA: December 9</td>
+            <td class="bg-warning"></td>
+            <td class="bg-warning"></td>
+            <td class="bg-warning"></td>
+            <td class="bg-warning"></td>
+            <td class="bg-warning"></td>
+            <td class="bg-warning" style="border-radius: 0px 0px 10px 0px; font-size: .70rem; text-align: end; font-weight: 700;">Track Delivery</td>
+          </tr>
+          <tr class="effect2  ">
+            <td class="align-middle">#PD000001</td>
+            <td class="align-middle"><div class="name">
+              <div class="logo"><i class="bi bi-person-circle fa-2x pe-3"></i></div>
+              <div class="user-name ">Justin<br><span>Business Name</span></div>
+            </div> </td>
+            <td class="align-middle">Business cards <br><span>X250 </span> <br>
+            Poster <br><span>X250</span></td>
+            <td class="align-middle">
+              <button type="button" class="btn btn-warning btn-sm ">IN PRODUCTION</button></td>
+              <td class="align-middle">Nov 18, 2023</td>
+              <td class="align-middle">$320,800 </td>
+              <td class="align-middle"><i onclick="show2()" class="bi bi-grip-vertical fa-2x point mt-0 d-flex justify-content-end pe-1"></i></td>
+          </tr>
+          <tr class="border-status">
+            <td class="bg-warning" style="border-radius: 0px 0px 0px 10px; font-size: .70rem; font-weight: 700;">Dispatch ETA: December 9</td>
+            <td class="bg-warning"></td>
+            <td class="bg-warning"></td>
+            <td class="bg-warning"></td>
+            <td class="bg-warning"></td>
+            <td class="bg-warning"></td>
+            <td class="bg-warning" style="border-radius: 0px 0px 10px 0px; font-size: .70rem; text-align: end; font-weight: 700;">Track Delivery</td>
+          </tr>
+          <tr class="effect3 my-2">
+            <td  class="align-middle">#PD000001</td>
+            <td class="align-middle"><div class="name">
+              <div class="logo"><i class="bi bi-person-circle fa-2x pe-3"></i></div>
+              <div class="user-name ">Justin<br><span>Business Name</span></div>
+            </div> </td>
+            <td  class="align-middle">Business cards <br><span>X250 </span> <br>
+            Poster <br><span>X250</span></td>
+            <td  class="align-middle">
+              <button type="button" class="btn btn-success btn-sm">Success</button></td>
+              <td  class="align-middle">Nov 18, 2023</td>
+              <td  class="align-middle">$320,800 </td>
+              <td  class="align-middle"><i onclick="show3()" class="bi bi-grip-vertical fa-2x point d-flex justify-content-end pe-1"></i></td>
+          </tr>
+          <tr class="effect4 pt-2">
+            <td  class="align-middle">#PD000001</td>
+            <td class="align-middle"><div class="name">
+              <div class="logo"><i class="bi bi-person-circle fa-2x pe-3"></i></div>
+              <div class="user-name ">Justin<br><span>Business Name</span></div>
+            </div> </td>
+            <td  class="align-middle">Business cards <br><span>X250 </span> <br>
+            Poster <br><span>X250</span></td>
+            <td  class="align-middle">
+              <button type="button" class="btn btn-success btn-sm ">Success</button></td>
+              <td  class="align-middle">Nov 18, 2023</td>
+              <td  class="align-middle">$320,800 </td>
+              <td  class="align-middle"><i onclick="show4()" class="bi bi-grip-vertical fa-2x point d-flex justify-content-end pe-1"></i></td>
+          </tr>
+          
+        </tfoot>
+      </table>
+    </section>
+  
+<script>
+  function show (){
+    console.log("click")
+    const effect = document.querySelector('.effect')
+    console.log(effect.classList);
+    effect.classList.add('active')
+    
+  }
+  function show2(){
+    console.log("click")
+    const effect = document.querySelector('.effect2')
+    console.log(effect.classList);
+    effect.classList.add('active')
+    
+  }
+  function show3 (){
+    console.log("click")
+    const effect = document.querySelector('.effect3')
+    console.log(effect.classList);
+    effect.classList.add('active')
+    
+  }
+  function show4 (){
+    console.log("click")
+    const effect = document.querySelector('.effect4')
+    console.log(effect.classList);
+    effect.classList.add('active')
+    
+  }
+ 
+</script>
+    <!-- End your project here-->
+
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+  </body>
+</html>
