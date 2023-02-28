@@ -7,13 +7,25 @@ span {
 }
 .name {
   display: flex;
+  align-items: center;
 }
 .active {
   border-radius: 20px;
   border: 1px solid black;
 }
-.header {
+.list ul li {
+  text-decoration: none;
+  list-style: none;
 }
+.list ul {
+  /* display: none; */
+}
+.list {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
 .test {
   margin: 100px;
 }
@@ -26,4 +38,12 @@ tr {
 }
 tr > td {
   padding: 10px;
+}
+th,
+td {
+  padding: 20px;
+  background-color: none;
+}
+.person-bg {
+  color: rgb(98, 255, 92);
 }
